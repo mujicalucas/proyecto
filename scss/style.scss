@@ -5,7 +5,7 @@ $blanco:white;
 }
 
 #fondo {
-	background-image: url(assets/fondoamd.jpeg);
+	background-image: url(../assets/fondoamd.jpeg);
  
 
 }
@@ -51,7 +51,7 @@ borde:10px
 
 
 p {
-	background-color: map-get($estilos, color);
+	background-color: grey;
 	border-radius: map-get($estilos, borde);
 	font-size: map-get($estilos, tFuente);
 }
